@@ -1,0 +1,48 @@
+.basket {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Max width for the basket */
+    margin: 20px auto; /* Center the basket */
+  }
+  
+  .basket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .basket-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  .basket-item h3 {
+    margin: 0; /* Remove margin from h3 */
+  }
+  
+  .basket-item p {
+    margin: 0; /* Remove margin from p */
+    color: #555; /* Gray color for price */
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: var(--brown); /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  h2 {
+    margin-top: 20px; /* Spacing for the total */
+    font-size: 24px; /* Font size for total */
+  }
+  
+  
